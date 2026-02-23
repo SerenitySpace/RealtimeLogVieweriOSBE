@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RealTimeLog'
-  s.version          = '0.1.0'
+  s.version          = '1.1.0'
   s.summary          = 'A short description of RealTimeLog.'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/swlfigo/RealTimeLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'RealTimeLog/Classes/**/*'
-  
-  s.dependency  'CocoaAsyncSocket'
   
   s.resource     = 'RealTimeLog/Assets/WebBundle.bundle'
 
